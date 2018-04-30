@@ -17,10 +17,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".RegistrationForm"
-            android:label="@string/title_activity_registration_form"
-            android:theme="@style/AppTheme.NoActionBar" />
+       
         <activity android:name=".NewRegistrationActivity" />
         <activity android:name=".UserPage"></activity>
     </application>
