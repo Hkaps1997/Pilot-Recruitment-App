@@ -13,3 +13,4 @@ to register themselves by providing their details and based on that the app deci
 - Android Studio.
 - An Android device.
 - Internet Connection.
+
