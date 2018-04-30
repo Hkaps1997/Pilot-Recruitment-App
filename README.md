@@ -14,3 +14,12 @@ to register themselves by providing their details and based on that the app deci
 - An Android device.
 - Internet Connection.
 
+# Usages
+- Login Page
+![alt text](https://github.com/Hkaps1997/Pilot-Recruitment-App/blob/master/Screenshot_2017-08-22-18-52-09-836_com.example.harshit.myform.png)
+
+- Registration Form
+![alt text](https://github.com/Hkaps1997/Pilot-Recruitment-App/blob/master/Screenshot_2017-08-22-18-54-46-140_com.example.harshit.myform.png)
+
+- User Page
+![alt text](https://github.com/Hkaps1997/Pilot-Recruitment-App/blob/master/Screenshot_2017-08-22-18-55-50-854_com.example.harshit.myform.png)
