@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_new_registration"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.example.harshit.myform.NewRegistrationActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="First Name"
+
+                android:layout_marginTop="10dp"
+                android:id="@+id/fName"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Last Name"
+                android:id="@+id/lName"
+                android:layout_marginTop="10dp"
+                />
+            <!--EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Address"
+                android:id="@+id/address"
+                android:layout_marginTop="10dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Pincode"
+                android:id="@+id/pin"
+                android:layout_marginTop="10dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="City/District"
+                android:id="@+id/city"
+                android:layout_marginTop="10dp"
+                />-->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="State"
+                android:id="@+id/state"
+                android:layout_marginTop="10dp"
+                />
+            <!--EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nationality"
+                android:id="@+id/nation"
+                android:layout_marginTop="10dp"
+                />-->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Gender(Male/Female)"
+                android:id="@+id/gen"
+                android:layout_marginTop="10dp"
+                />
+            <!--EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Category"
+                android:id="@+id/cat"
+                android:layout_marginTop="10dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:id="@+id/password"
+                android:layout_marginTop="10dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Date of birth(DD/MM/YYYY)"
+                android:id="@+id/dob"
+                android:layout_marginTop="10dp"
+                />-->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mobile No."
+                android:id="@+id/mob"
+                android:layout_marginTop="10dp"
+                android:inputType="number"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email-ID"
+                android:id="@+id/email"
+                android:layout_marginTop="10dp"
+
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Height(In cm)"
+                android:id="@+id/height"
+                android:layout_marginTop="10dp"
+                android:inputType="number"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Body Mass Index"
+                android:id="@+id/bmi"
+                android:layout_marginTop="10dp"
+                android:inputType="number"
+                />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:prompt="@string/spinner_title"
+
+
+                android:layout_marginTop="20dp"
+                android:id="@+id/region"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.2dp"
+                android:background="@android:color/darker_gray"/>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:prompt="@string/spinner_title"
+
+
+                android:layout_marginTop="30dp"
+                android:id="@+id/grad"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.2dp"
+                android:background="@android:color/darker_gray"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:prompt="@string/spinner_title"
+
+
+                android:layout_marginTop="30dp"
+                android:id="@+id/catSpinner"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.2dp"
+                android:background="@android:color/darker_gray"/>
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:layout_marginTop="10dp"
+                android:id="@+id/submit"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
